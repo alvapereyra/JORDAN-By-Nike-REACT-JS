@@ -1,0 +1,17 @@
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-left: 50px;
+}
+
+.carro{
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+}
+
+.greeting{
+    text-align: center;
+    font-weight:400;
+    margin-top: 50px;
+}
