@@ -1,15 +1,14 @@
-import ItemListContainer from "./components/ItemListContainer";
+
 import NavBar from "./components/NavBar";
 import './app/App.css'
-import ItemCount from "./components/ItemCount";
+import Router from "./app/Router";
 
 
 const App = () => {
   return (
-    <div>
+    <div  className="color">
       <NavBar/>
-      <ItemListContainer greeting="Welcome"/>
-      <ItemCount/>
+      <Router/>
     </div>
   );
 }

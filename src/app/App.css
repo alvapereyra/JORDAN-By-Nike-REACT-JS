@@ -34,3 +34,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.centrado{
+    text-align: center;
+}
+
+.color{
+    background-color: white;
+}

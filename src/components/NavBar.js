@@ -7,24 +7,21 @@ import foto from '../assets/img/logo.png'
 import '../app/App.css'
 import CartWidget from "./CartWidget";
 import foto2 from '../assets/img/nike.png'
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
   return (
     <Navbar bg="black" variant="dark" expand="lg">
-      <img src={foto} alt="logo" className="logo"/>
+      <Link to="/"><img src={foto} alt="logo" className="logo"/></Link>
       <Container>
-        <Navbar.Brand href="#home">JORDAN by <img src={foto2} alt="nike"/></Navbar.Brand>
+        <Navbar.Brand onClick={() => navigate("/")} style={{cursor:"pointer"}}>JORDAN by <img src={foto2} alt="nike"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="Categories" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Sneakers</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Clothes
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link onClick={() => navigate("/")} style={{cursor:"pointer"}}>Home</Nav.Link>
+            <Nav.Link onClick={() => navigate("/")} style={{cursor:"pointer"}}>Sneakers</Nav.Link>
+            <Nav.Link>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
