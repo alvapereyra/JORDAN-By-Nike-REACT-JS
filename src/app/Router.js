@@ -6,6 +6,7 @@ const Router = () => (
         <Routes> 
             <Route index element={<ItemListContainer/>}/>
             <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+            <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
         </Routes>
 )
 
