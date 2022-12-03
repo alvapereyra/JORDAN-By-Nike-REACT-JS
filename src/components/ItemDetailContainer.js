@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import {useEffect, useState} from 'react';
 import {getProduct} from '../services/products';
 
+
 const ItemDetailContainer = () => {
     const { id } = useParams();
 

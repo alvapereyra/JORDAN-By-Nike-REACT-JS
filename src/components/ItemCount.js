@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import '../app/App.css'
 
-const ItemCount = ({producto}) => {
+const ItemCount = ({producto, onAdd}) => {
 
 const [c, setC] = useState(0);
 const sumador = () => {
@@ -14,12 +14,12 @@ const restador = () => {
 
   return (
     <div className='flex'>
-        <button className='pad1'>
+        <div className='pad1'>
             <button onClick={restador} className='botones'> - </button>
             <span style={{display:'inline-block', width:90}}>{c}</span> 
             <button onClick={sumador} className='botones'> + </button>
-        </button>
-        <Button variant="outline-primary" className='pad1'>Add to cart</Button>
+        </div>
+        <div><Button variant="outline-primary" className='pad1' onClick={() => onAdd(c)}>Add to cart</Button></div>
     </div>
   )
 }

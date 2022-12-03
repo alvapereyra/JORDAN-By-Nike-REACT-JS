@@ -18,7 +18,7 @@ const products = [
     {
         id: 1,
         nombre: "JORDAN 1 MID WHITE BLACK RACER BLUE",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 250,
         talle: "40",
         img: j1,
@@ -29,7 +29,7 @@ const products = [
     {
         id: 2,
         nombre: "AIR JORDAN RETRO 1 LOW BLACK WHITE GREY",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 235,
         talle: "40",
         img: j2,
@@ -40,7 +40,7 @@ const products = [
     {
         id: 3,
         nombre: "AIR JORDAN RETRO 1 MID GYM RED BLACK WHITE",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 250,
         talle: "39",
         img: j3,
@@ -51,7 +51,7 @@ const products = [
     {
         id: 4,
         nombre: "JORDAN 1 MID SE SESAME",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 230,
         talle: "39",
         img: j4,
@@ -62,7 +62,7 @@ const products = [
     {
         id: 5,
         nombre: "JORDAN 1 MID ARMORY NAVY",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 240,
         talle: "41",
         img: j5,
@@ -73,7 +73,7 @@ const products = [
     {
         id: 6,
         nombre: "AIR JORDAN 1 MID BARELY ROSE",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 220,
         talle: "39",
         img: j6,
@@ -84,7 +84,7 @@ const products = [
     {
         id: 7,
         nombre: "JORDAN 1 MID NEWSPRINT LIGHT OREWOOD BROWN",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 230,
         talle: "39",
         img: j7,
@@ -95,7 +95,7 @@ const products = [
     {
         id: 8,
         nombre: "JORDAN 1 MID PURPLE AQUA",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 270,
         talle: "42",
         img: j8,
@@ -106,7 +106,7 @@ const products = [
     {
         id: 9,
         nombre: "JORDAN 1 RETRO HIGH 85 GEORGETOWN",
-        desc: "Zapatillas urbanas con un diseño innovador y un estilo único",
+        desc: "Urban shoes with an innovative design and a unique style",
         precio: 230,
         talle: "38",
         img: j9,
@@ -116,8 +116,8 @@ const products = [
 
     {
         id: 10,
-        nombre: "BUZO JORDAN STATEMENT ESSENTIALS",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "HOODY JORDAN STATEMENT ESSENTIALS",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 100,
         talle: "M",
         img: j10,
@@ -127,8 +127,8 @@ const products = [
 
     {
         id: 11,
-        nombre: "BUZO JORDAN ESSEN FLEECE CORE",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "HOODY JORDAN ESSEN FLEECE CORE",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 80,
         talle: "S",
         img: j11,
@@ -138,8 +138,8 @@ const products = [
 
     {
         id: 12,
-        nombre: "MUSCULOSA JORDAN HERITAGE CORE",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "BEEFFY JORDAN HERITAGE CORE",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 50,
         talle: "M",
         img: j12,
@@ -149,8 +149,8 @@ const products = [
 
     {
         id: 13,
-        nombre: "GORRO JORDAN JUMPMAN",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "HAT JORDAN JUMPMAN",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 40,
         talle: "M",
         img: j13,
@@ -160,8 +160,8 @@ const products = [
 
     {
         id: 14,
-        nombre: "CAMPERA JORDAN ESSENTIALS WOVEN",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "JACKET JORDAN ESSENTIALS WOVEN",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 130,
         talle: "M",
         img: j14,
@@ -171,8 +171,8 @@ const products = [
 
     {
         id: 15,
-        nombre: "CAMPERA JORDAN SPORT DNA",
-        desc: "Ropa urbana con un diseño innovador y un estilo único",
+        nombre: "JACKET JORDAN SPORT DNA",
+        desc: "Urban clothing with an innovative design and a unique style",
         precio: 120,
         talle: "M",
         img: j15,

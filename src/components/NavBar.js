@@ -1,12 +1,12 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import foto from '../assets/img/logo.png'
-import '../app/App.css'
 import CartWidget from "./CartWidget";
 import foto2 from '../assets/img/nike.png'
 import { Link, useNavigate } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import '../app/App.css'
 
 const NavBar = () => {
   const navigate = useNavigate();
