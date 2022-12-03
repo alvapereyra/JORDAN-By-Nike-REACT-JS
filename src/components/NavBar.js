@@ -20,7 +20,6 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link onClick={() => navigate("/category/sneakers")} style={{cursor:"pointer"}}>Sneakers</Nav.Link>
             <Nav.Link onClick={() => navigate("/category/clothes")} style={{cursor:"pointer"}}>Clothes</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
