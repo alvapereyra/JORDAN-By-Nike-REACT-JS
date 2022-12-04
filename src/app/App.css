@@ -41,6 +41,10 @@ body{
     outline: auto;
 }
 
+.hover :hover{
+    color: red;
+}
+
 .botones{
     border: none;
     color: #0d6efd;
@@ -91,3 +95,78 @@ footer{
     width: 180px;
 }
 
+
+@media (max-width: 992px) {
+    .responsive{
+        display: none;
+    }
+
+    .responsive2{
+        position: absolute;
+        right: 19%;
+    }
+
+    .carro{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .responsive{
+        display: none;
+    }
+
+    .carro{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 370px) {
+    .responsive{
+        display: none;
+    }
+
+    .carro{
+        width: 30px;
+        height: 30px;
+    }
+
+    .responsive2{
+        position: absolute;
+        right: 19%;
+    }
+}
+
+@media (max-width: 1400px){
+    .container{
+        max-width: 1400px !important;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 1200px !important;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        max-width: 992px !important;
+    }
+}
+
+
+@media (max-width: 768px){
+    .container{
+        max-width: 768px !important;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        max-width: 576px !important;
+    }
+}

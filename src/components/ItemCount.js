@@ -4,12 +4,12 @@ import '../app/App.css'
 
 const ItemCount = ({producto, onAdd}) => {
 
-const [c, setC] = useState(0);
+const [c, setC] = useState(1);
 const sumador = () => {
     setC(c >= producto.cantidad? c : c + 1);
 };
 const restador = () => {
-    setC(c >= 1? c - 1 : c);
+    setC(c >= 2? c - 1 : c);
 };
 
   return (

@@ -6,7 +6,7 @@ const CartWidget = () => {
     const {totalProducts} = useCartContext();
 return (
     <>  
-        <div className='cartWidget'>
+        <div className='cartWidget responsive2'>
             <Link to="/Cart"><img src={foto} alt="carrito" className='carro'/></Link>
             <h6 className='cartNumber'>{totalProducts() || ""}</h6>
         </div>

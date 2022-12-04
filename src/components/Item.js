@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom"
+import Button from 'react-bootstrap/Button';
 
 
 const Item = ({product}) => {
@@ -9,7 +10,7 @@ const Item = ({product}) => {
         <h4>{product.nombre}</h4>
         <img src={product.img} alt=""/>
         <h6>${product.precio} USD</h6>
-        <Link to={"/item/"+product.id}><button variant="outline-primary" className='pad1'>See detail</button></Link>
+        <Link to={"/item/"+product.id}><Button variant="outline-dark" className='pad1'>See detail</Button></Link>
     </div>
   )
 }

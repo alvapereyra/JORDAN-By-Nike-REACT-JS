@@ -12,7 +12,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   return (
     <Navbar bg="black" variant="dark" expand="lg">
-      <Link to="/"><img src={foto} alt="logo" className="logo"/></Link>
+      <Link to="/"><img src={foto} alt="logo" className="logo responsive"/></Link>
       <Container>
         <Navbar.Brand onClick={() => navigate("/")} style={{cursor:"pointer"}}>JORDAN by <img src={foto2} alt="nike"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
