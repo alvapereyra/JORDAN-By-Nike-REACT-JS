@@ -22,8 +22,8 @@ body{
 }
 
 .carro{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .greeting{
@@ -101,11 +101,6 @@ footer{
         display: none;
     }
 
-    .responsive2{
-        position: absolute;
-        right: 19%;
-    }
-
     .carro{
         width: 50px;
         height: 50px;
@@ -118,24 +113,23 @@ footer{
     }
 
     .carro{
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .cartNumber{
+        font-size: small;
     }
 }
 
-@media (max-width: 370px) {
-    .responsive{
-        display: none;
-    }
-
+@media (max-width: 343px) {
     .carro{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
-    .responsive2{
-        position: absolute;
-        right: 19%;
+    .cartNumber{
+        font-size: small;
     }
 }
 

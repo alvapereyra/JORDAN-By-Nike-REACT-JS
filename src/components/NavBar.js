@@ -15,6 +15,7 @@ const NavBar = () => {
       <Link to="/"><img src={foto} alt="logo" className="logo responsive"/></Link>
       <Container>
         <Navbar.Brand onClick={() => navigate("/")} style={{cursor:"pointer"}}>JORDAN by <img src={foto2} alt="nike"/></Navbar.Brand>
+        <CartWidget />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -23,7 +24,7 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <CartWidget />
+      
     </Navbar>
     
   );
